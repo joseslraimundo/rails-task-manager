@@ -1,0 +1,24 @@
+<%= form_for @task do |t| %>
+  <%= t.label :title, "Enter title" %>
+  <%= t.text_field :title %>
+  <%= t.label :details, "Enter details" %>
+  <%= t.text_field :details %>
+  <%= t.submit%>
+<% end %>
+
+
+
+
+
+
+<!-- <form action="/tasks/id" method="post">
+
+  <label for="title">Enter title</label>
+  <input type="text" name="task[title]" value="">
+
+  <label for="details">Enter details</label>
+  <input type="text" name="task[details]">
+
+  <input type="submit">
+
+</form> -->
